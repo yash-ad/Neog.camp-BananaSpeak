@@ -12,8 +12,15 @@ console.log("Clicked");
 }) */
 
 let btnTranslate = document.querySelector("#Btn-translate");
+let txtInput = document.querySelector("#txtInput");
 
-function clickable()
+
+
+
+
+
+
+function clickbutton()
 {
 
 console.log("Clicked");
@@ -22,4 +29,4 @@ console.log("Clicked");
 }
 //concept of callbacks in javascript
 
-btnTranslate.addEventListener("click", clickable);
+btnTranslate.addEventListener("click", clickbutton);
