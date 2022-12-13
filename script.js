@@ -11,10 +11,12 @@ console.log("Clicked");
 
 }) */
 
+/* <!--Input and Output Area--> */
+
 let btnTranslate = document.querySelector("#Btn-translate");
-let txtInput = document.querySelector("#txtInput");
-
-
+let txtinput = document.querySelector("#txtInput");                //Input
+var txtoutput = document.querySelector("#txtOutput");               //Output
+let minionLanguage = " Tulaliloo ti amo ";           
 
 
 
@@ -22,11 +24,11 @@ let txtInput = document.querySelector("#txtInput");
 
 function clickbutton()
 {
-
-console.log("Clicked");
-
+txtoutput.innerText = txtinput.value + " Translated into : " + "" + minionLanguage;
 
 }
+
+
 //concept of callbacks in javascript
 
 btnTranslate.addEventListener("click", clickbutton);
